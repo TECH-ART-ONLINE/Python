@@ -68,3 +68,5 @@ fbx_file = generate_fbx()
 if fbx_file is not None:
     command = "{} {}".format(python_file, fbx_file)
     unreal_execute_command(command)
+
+print "@aA"
